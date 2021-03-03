@@ -1,0 +1,36 @@
+  
+baseURL: http://localhost:1313
+languageCode: en-us
+title: MyNotebook
+theme: mini
+paginate: 2
+
+# for exampleSite only, you may need to delete the line: `themesDir: ../../` 
+# themesDir: ../../
+
+hasCJKLanguage: true
+permalinks:
+  posts: /posts/:title/
+
+# googleAnalytics: UA-123-45
+
+
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+
+
+social:
+  # github: https://github.com/Shaokun-X
+  # twitter: https://github.com/nodejh
+  # stackoverflow: https://stackoverflow.com/users/4518882/nodejh
+
+
+params:
+  author: Shaokun XIE
+  # bio: Software Engineer
+  description: My very own notebook.
+  enableRSS: true
+  # enableComments: true
+  # enableGoogleAnalytics: true
