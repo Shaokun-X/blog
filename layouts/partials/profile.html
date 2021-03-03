@@ -1,10 +1,11 @@
 <header class="profile">
+    {{ $logo := resources.Get "images/favicon.ico" | fingerprint }}
     {{ if .Site.Params.avatarLink }}
         <a href="{{ .Site.Params.avatarLink }}">
-          <img class="avatar" alt="avatar" src="{{ "/images/avatar.png" | relURL }}" />
+          <img class="avatar" alt="avatar" src="{{ $logo | relURL }}" />
         </a>
     {{ else }}
-        <img class="avatar" alt="avatar" src="{{ "/images/avatar.png" | relURL }}" />
+        <img class="avatar" alt="avatar" src="{{ $logo | relURL }}" />
     {{ end }}
 
     <h1>{{ .Site.Title }}</h1>
