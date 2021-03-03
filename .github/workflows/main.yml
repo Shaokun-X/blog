@@ -33,5 +33,5 @@ jobs:
           publish_dir: ./public
           
       - name: Add domain
-        run: echo blog.shaokunxie.xyz > ./CNAME
+        run: echo blog.shaokunxie.xyz > public/CNAME
  
