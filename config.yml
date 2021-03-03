@@ -3,10 +3,8 @@ baseURL: https://shaokun-x.github.io/myblog/
 languageCode: en-us
 title: MyNotebook
 paginate: 10
-assetDir: /static
+assetDir: ./static
 
-# for exampleSite only, you may need to delete the line: `themesDir: ../../` 
-# themesDir: ../../
 
 hasCJKLanguage: true
 permalinks:
