@@ -3,7 +3,8 @@ baseURL: https://shaokun-x.github.io/myblog/
 languageCode: en-us
 title: MyNotebook
 theme: mini
-paginate: 2
+paginate: 10
+assetDir: /themes/mini/static
 
 # for exampleSite only, you may need to delete the line: `themesDir: ../../` 
 # themesDir: ../../
