@@ -1,5 +1,5 @@
   
-baseURL: http://localhost:1313
+baseURL: https://shaokun-x.github.io/myblog/
 languageCode: en-us
 title: MyNotebook
 theme: mini
