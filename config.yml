@@ -10,7 +10,7 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-# googleAnalytics: UA-123-45
+googleAnalytics: UA-264104070
 
 
 markup:
