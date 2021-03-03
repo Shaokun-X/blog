@@ -6,6 +6,7 @@ body {
   letter-spacing: 0.008em;
   position: relative;
   min-height: 100vh;
+  margin: 0;
 }
 
 a {
