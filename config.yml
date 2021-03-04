@@ -5,7 +5,7 @@ title: MyNotebook
 paginate: 10
 assetDir: ./static
 
-
+enableEmoji: true
 hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
@@ -34,4 +34,4 @@ params:
   description: My very own notebook.
   enableRSS: true
   # enableComments: true
-  # enableGoogleAnalytics: true
+  enableGoogleAnalytics: true
