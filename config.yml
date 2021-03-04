@@ -10,8 +10,6 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-googleAnalytics: UA-264104070
-
 
 markup:
   highlight:
@@ -34,4 +32,3 @@ params:
   description: My very own notebook.
   enableRSS: true
   # enableComments: true
-  enableGoogleAnalytics: true
