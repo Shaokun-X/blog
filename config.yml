@@ -17,6 +17,9 @@ markup:
   highlight:
     guessSyntax: true
     style: emacs
+  goldmark:
+    renderer:
+      unsafe: true
 
 
 social:

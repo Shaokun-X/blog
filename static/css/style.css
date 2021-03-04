@@ -91,11 +91,6 @@ p {
   margin-block-start: 1.5em;
   margin-block-end: 1.5em;
 }
-p,
-pre {
-  line-break: anywhere;
-  word-break: break-all;
-}
 .markdown-image img {
   max-width: 100%;
 }
@@ -112,6 +107,7 @@ h4:hover a {
 }
 .highlight pre {
   padding: 7px;
+  overflow-y: hidden;
 }
 
 .highlight {
@@ -131,6 +127,7 @@ p code {
 }
 pre code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  white-space: pre;
 }
 
 
@@ -211,6 +208,7 @@ nav.navigation a.rss:hover svg {
   margin: 20px auto;
   font-size: 12px;
   letter-spacing: 0.04em;
+  white-space: nowrap;
 }
 .powerby {
   margin: 20px auto;
@@ -238,6 +236,7 @@ nav.navigation a.rss:hover svg {
 /* layout wrapper */
 .wrapper {
   position: relative;
+  padding-bottom: 180px;
 }
 
 /* profile  */
@@ -379,7 +378,7 @@ nav.navigation a.rss:hover svg {
 }
 
 #single .tags {
-  margin-top: 24px;
+  margin-top: 60px;
 }
 #single .tags a {
   background: #f2f2f2;
