@@ -1,5 +1,5 @@
 <header class="profile">
-    {{ $logo := resources.Get "images/favicon.ico" | fingerprint }}
+    {{ $logo := resources.Get "images/avatar.jpg" | fingerprint }}
     {{ if .Site.Params.avatarLink }}
         <a href="{{ .Site.Params.avatarLink }}">
           <img class="avatar" alt="avatar" src="{{ $logo | relURL }}" />

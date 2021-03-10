@@ -1,7 +1,7 @@
   
 baseURL: http://blog.shaokunxie.xyz
 languageCode: en-us
-title: MyNotebook
+title: My Notebook
 paginate: 10
 assetDir: ./static
 
