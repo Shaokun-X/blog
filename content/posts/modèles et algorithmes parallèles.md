@@ -89,7 +89,7 @@ W - write
 1. EREW
    - At any time only one processor can read a memory unit
 2. CREW
-   - Concurrently read a memory unit is okay, but not write
+   - Concurrently reading a memory unit is okay, but not writing
 3. CRCW
    - Common-mode-CRCW: all processors have to write the same value
    - Arbitraty-mode-CRCW: picks one value of the processors to write
@@ -103,5 +103,38 @@ execution time: T(An)
 work: H(An) * T(An)
 ```
 
-[slides](https://ecampus.emse.fr/pluginfile.php/9175/mod_resource/content/0/cours_modeles.pdf) | 
 [NC complexity](https://en.wikipedia.org/wiki/NC_%28complexity%29)
+
+### Efficace et optimal
+Un algorithme parallèle est dit :
+
+   - **Efficace** si la solution parallèle est "intéressante" : le temps parallèle est polylogarithmique et le travail est un facteur du temps séquentiel multiplié par un facteur logarithmique
+
+   - **Optimal** si la solution parallèle est efficace et le travail est du même ordre que le temps du meilleur algorithme séquentiel
+
+Exemple : la somme de n valeurs.
+  
+> [Polylogarithmic function](https://en.wikipedia.org/wiki/Polylogarithmic_function)
+> 
+> [Maybe helpful](https://cs.stackexchange.com/questions/65715/how-to-define-an-efficient-optimal-or-suboptimal-parallel-algorithm)
+
+**The definition is given by comparing to the sequential algorithm.**
+
+
+## Typology
+
+[Slides](https://ecampus.emse.fr/pluginfile.php/9176/mod_resource/content/0/topologies.pdf)
+
+- Bus
+- Fixed network
+  - [Complete graph](https://en.wikipedia.org/wiki/Complete_graph)
+  - Tree
+  - Path
+  - Ring
+  - Grid
+  - Torus
+  - Hypercube
+- Reconfigurable network
+
+
+
