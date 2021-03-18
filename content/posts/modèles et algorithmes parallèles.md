@@ -102,15 +102,15 @@ number of processors: H(An)
 execution time: T(An)
 work: H(An) * T(An)
 ```
-
+`
 [NC complexity](https://en.wikipedia.org/wiki/NC_%28complexity%29)
 
 ### Efficace et optimal
 Un algorithme parallèle est dit :
 
-   - **Efficace** si la solution parallèle est "intéressante" : le temps parallèle est polylogarithmique et le travail est un facteur du temps séquentiel multiplié par un facteur logarithmique
+   - **Efficace** si la solution parallèle est "intéressante" : le temps parallèle est polylogarithmique et le travail est un facteur du temps séquentiel multiplié par un facteur logarithmique (<i> W(n) ∈ n<sup>k</sup> log n </i>)
 
-   - **Optimal** si la solution parallèle est efficace et le travail est du même ordre que le temps du meilleur algorithme séquentiel
+   - **Optimal** si la solution parallèle est efficace et le travail est du même ordre que le temps du meilleur algorithme séquentiel (<i> efficace and W(n) ∈ T<sub>best_seq</sub>(n) </i>)
 
 Exemple : la somme de n valeurs.
   
