@@ -3,7 +3,7 @@ title: "Problem-solving with State Graph"
 date: 2021-03-10T09:17:19+01:00
 description: "A brief description"
 tags: ["State Graph", "AI", "Problem Solving"]
-draft: true
+draft: false
 ---
 
 ## Typology of three types of problem
