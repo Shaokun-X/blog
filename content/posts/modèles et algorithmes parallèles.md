@@ -102,7 +102,7 @@ number of processors: H(An)
 execution time: T(An)
 work: H(An) * T(An)
 ```
-`
+
 [NC complexity](https://en.wikipedia.org/wiki/NC_%28complexity%29)
 
 ### Efficace et optimal
