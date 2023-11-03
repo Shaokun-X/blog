@@ -5,4 +5,4 @@ description: "A brief description"
 draft: false
 ---
 
-This is the site that I use to take notes.
+Write down things that I have forgotten at least twice or that have annoyed me a lot :)

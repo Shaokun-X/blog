@@ -1,7 +1,7 @@
   
-baseURL: https://blog.shaokunxie.xyz
+baseURL: https://blog.shaokunxie.com
 languageCode: en-us
-title: My Notebook
+title: Shaokun Xie's Notebook
 paginate: 10
 assetDir: ./static
 
@@ -21,14 +21,12 @@ markup:
 
 
 social:
-  # github: https://github.com/Shaokun-X
-  # twitter: https://github.com/nodejh
-  # stackoverflow: https://stackoverflow.com/users/4518882/nodejh
+  github: https://github.com/Shaokun-X
 
 
 params:
   author: Shaokun XIE
   # bio: Software Engineer
-  description: My very own notebook.
+  description: Write down things that I have forgotten at least twice or that have annoyed me a lot :)
   enableRSS: true
   # enableComments: true
