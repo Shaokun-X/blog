@@ -82,7 +82,10 @@ tr:nth-child(odd)>td {
   background: #fcfcfc;
 }
 
-h1,
+h1 {
+  font-weight: bold;
+  font-size: 1.75em;
+}
 h2,
 h3 {
   font-weight: 400;
