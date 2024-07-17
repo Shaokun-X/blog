@@ -22,11 +22,11 @@ git clone https://github.com/Popax21/synaTudor.git
 ## Install dependencies
 ```shell
 # the tools if you don't already have
-$ sudo install -y meson ninja cmake
+$ sudo apt-get install -y meson ninja cmake
 # build deps
-$ sudo install -y libgusb-dev libcap-dev libseccomp-dev libfprint-2-tod-dev libjson-glib-dev innoextract
+$ sudo apt-get install -y libgusb-dev libcap-dev libseccomp-dev libfprint-2-tod-dev libjson-glib-dev innoextract
 # fprint
-$ sudo install -y fprintd libpam-fprintd
+$ sudo apt-get install -y fprintd libpam-fprintd
 ```
 
 ## Build and install
