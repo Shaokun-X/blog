@@ -2,7 +2,9 @@
 baseURL: https://blog.shaokunxie.com
 languageCode: en-us
 title: Shaokun Xie's Notebook
-paginate: 10
+
+pagination:
+  pagerSize: 10
 assetDir: ./static
 
 enableEmoji: true

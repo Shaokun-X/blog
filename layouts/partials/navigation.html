@@ -11,6 +11,8 @@
 	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
-	  <a class="rss" href="{{ .Site.RSSLink }}">{{ partial "svgs/rss.svg" (dict "fill" "#404040" "width" 12 "height" 12 ) }}</a>
+		{{- with site.Home.OutputFormats.Get "rss" -}}
+	  <a class="rss" href="{{ .RelPermalink }}">{{ partial "svgs/rss.svg" (dict "fill" "#404040" "width" 12 "height" 12 ) }}</a>
+		{{- end }}
 	{{ end }}
 </nav>
